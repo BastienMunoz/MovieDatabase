@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Movie Database</string>
+    <string name="na">N/A</string>
+
+    <!-- Errors -->
+    <string name="error_title">Error</string>
+    <string name="error_no_internet_connectivity">Please check your internet connectivity and try again later</string>
+    <string name="error_server_went_wrong">There was a problem with the server, please try again later</string>
+    <string name="error_unexpected">An unexpected error occurred, please try again later</string>
+
+    <!-- MoviesFragment -->
+    <string name="fragment_movies_poster_content_description">%1$s\'s poster image</string>
+    <string name="fragment_movies_no_movies">No movies found</string>
+
+    <!-- MovieDetailsFragment -->
+    <string name="fragment_movie_details_backdrop_content_description">Presentation image</string>
+    <string name="fragment_movie_details_runtime_without_hours">%1$sm</string>
+    <string name="fragment_movie_details_runtime_with_hours">%1$sh %2$sm</string>
+    <string name="fragment_movie_details_rumored_status">Rumored</string>
+    <string name="fragment_movie_details_planned_status">Planned</string>
+    <string name="fragment_movie_details_in_production_status">In Production</string>
+    <string name="fragment_movie_details_post_production_status">Post Production</string>
+    <string name="fragment_movie_details_released_status">Released</string>
+    <string name="fragment_movie_details_canceled_status">Canceled</string>
+    <string name="fragment_movie_details_movie_status">%1$s・%2$s・%3$s</string>
+    <string name="fragment_movie_details_genres_title">Genres</string>
+    <string name="fragment_movie_details_production_companies_title">Production companies</string>
+    <string name="fragment_movie_details_box_office_title">Box office</string>
+    <string name="fragment_movie_details_box_office_budget">Budget: $%1$s</string>
+    <string name="fragment_movie_details_box_office_revenue">Revenue $%1$s</string>
+    <string name="fragment_movie_details_spoken_languages_title">Spoken languages</string>
+    <string name="fragment_movie_details_rating_title">Ratings</string>
+    <string name="fragment_movie_details_rating">Average rating: %1$s/10</string>
+    <string name="fragment_movie_details_ratings">Number of ratings: %1$d</string>
+    <string name="fragment_movie_details_no_details">No details found</string>
+
+    <!-- ListContainerWidget -->
+    <string name="widget_list_container_icon_content_description">List icon</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Title" parent="TextAppearance.AppCompat.Headline" />
+    <style name="Subtitle" parent="TextAppearance.AppCompat.Subhead" />
+    <style name="Default" parent="TextAppearance.AppCompat.Small" />
+
+    <style name="ListContainerIcon">
+        <item name="android:tint">@color/black</item>
+    </style>
+</resources>
