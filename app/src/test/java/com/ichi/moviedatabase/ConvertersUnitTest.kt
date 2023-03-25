@@ -8,7 +8,7 @@ import org.junit.Test
 
 class ConvertersUnitTest {
     @Test
-    fun test_convertWSMovies_success() {
+    fun `convert WSMovies into List of AppHomeMovie, should create valid data`() {
         val wsResults = WSMovies(results = listOf(firstFakeMovie))
         val appHomeMovies = wsResults.results?.map { it.toApp() }
 
